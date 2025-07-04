@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="container">
+      <div class="d-flex justify-content-between pt-4 pb-2">
+        <div class="logo fw-bold d-none d-sm-block">MOODY STUDIO</div>
+
+        <!-- Right Icons -->
+        <div class="text-black icon-group d-none d-sm-block">
+          <div class="gap-4 d-flex">
+            <img src="Vector (3).png" />
+            <img src="Group 40.png" />
+            <img src="Group 43.png" />
+            <img src="Vector.png" />
+          </div>
+        </div>
+      </div>
+      <div class="d-flex gap-5 d-md-none d-sm-block pb-3">
+        <div class="logo fw-bold">URBAN OUTFITTERS</div>
+        <div class="icon-group text-black gap-3 d-flex align-items-center">
+          <i class="ri-contacts-line"></i>
+          <i class="ri-notification-3-line"></i>
+
+          <button class="toggle-btn bg-white border border-0">☰</button>
+        </div>
+      </div>
+      <nav
+        class="navbar navbar-custom border-black py-4 d-flex fs-6 justify-content-between align-items-center d-none d-md-block"
+      >
+        <!-- Center Links -->
+        <div class="menu-links">
+          <a href="#">HOME</a>
+          <a href="#">STORE</a>
+          <a href="#">ACCESSORIES</a>
+          <a href="#">BRAND</a>
+          <a href="#">PAGES</a>
+          <a href="#">ABOUT US</a>
+          <a href="#">NEWS</a>
+          <a href="#">CONTACT US</a>
+        </div>
+      </nav>
+
+      <!-- Lower Section -->
+      <div class="lower-menu text-center d-none d-sm-block">
+        <div class="row justify-content-between mx-5 px-5">
+          <div class="col-auto d-flex align-items-center">
+            <i class="ri-caravan-line pt-4 text-warning"></i>
+            <span class="icon-text pt-4 ps-3">FREE SHIPPING</span>
+          </div>
+          <div class="col-auto d-flex align-items-center">
+            <i class="ri-briefcase-line pt-4 text-warning"></i>
+            <span class="icon-text pt-4 ps-3">100% MONEY BACK</span>
+          </div>
+          <div class="col-auto d-flex align-items-center">
+            <i class="ri-customer-service-line pt-4 text-warning"></i>
+            <span class="icon-text pt-4 ps-3">SUPPORT 24/7</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="position-relative">
+      <div class="image-column1 border-bottom border-top border-1 border-black">
+        <img class="img-fluid" src="Group 178.png" />
+      </div>
+      <div
+        class="text-start position-absolute pt-5 mt-5 top-0 start-50 myfont d-none d-sm-block"
+      >
+        <h5 class="pt-5">HOT DEALS THIS WEEK</h5>
+        <h2 class="text-warning">
+          SALE UP 50%<br />
+          MODERN FURNITURE
+        </h2>
+        <a href="moody studio pg2.html" class="btn btn-outline-dark"
+          >VIEW DETAILS</a
+        >
+      </div>
+      <div class="d-md-none d-sm-block overlay1 ps-5 ms-5">
+        <h5 class="pt-5 overlay1-text">HOT DEALS THIS WEEK</h5>
+        <h2 class="text-warning overlay1-text">
+          SALE UP 50%<br />
+          MODERN FURNITURE
+        </h2>
+        <div class="">
+          <a
+            href="moody studio pg2.html"
+            class="btn btn-outline-dark overlay1-text"
+            >VIEW DETAILS</a
+          >
+        </div>
+      </div>
+      <div
+        class="text-center d-md-none d-sm-block position-absolute pt-5 mt-2 top-50 start-50"
+      >
+        <!-- Pagination Dots -->
+        <div class="carousel-dots mt-2 d-md-none d-sm-block">
+          <span class="bg-light"></span>
+          <span class="bg-light"></span>
+          <span class="active"></span>
+          <span class="bg-light"></span>
+          <span class="bg-light"></span>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- mobile only -->
+
+      <h2 class="d-md-none d-sm-block">HOT DEALS</h2>
+      <div class="row">
+        <div class="d-flex gap-3 overflow-x-scroll overflow-x-hidden">
+        <div class="col-md col-sm d-md-none d-sm-block">
+          <div
+            class="position-relative col-images align-content-center text-start justify-content-center d-flex"
+          >
+            <img src="Rectangle 6.png" />
+            <div class="overlay-sm text-light p-2">
+              <b>LINEN BEACH TOWEL </b>
+
+              <b><p>30$</p></b>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md col-sm d-md-none d-sm-block">
+          <div
+            class="position-relative col-images align-content-center text-start justify-content-center d-flex"
+          >
+            <img src="Rectangle 8.png" />
+            <div class="overlay-sm text-light p-2">
+              <b>4-pack Small Ceramic Plates </b>
+
+              <b><p>14$</p></b>
+            </div>
+          </div>
+        </div>
+        <div class="col-md col-sm d-md-none d-sm-block">
+          <div
+            class="position-relative col-images align-content-center text-start justify-content-center d-flex"
+          >
+            <img src="Rectangle 6.png" />
+            <div class="overlay-sm text-light p-2">
+              <b>LINEN BEACH TOWEL </b>
+
+              <b><p>30$</p></b>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="carousel-dots mt-2 d-md-none d-sm-block">
+          <span class=""></span>
+          <span class=""></span>
+          <span class="active"></span>
+          <span class=""></span>
+          <span class=""></span>
+        </div>
+        <div class="row pt-3">
+          <div class="col-md col-sm bg-light-subtle">
+            <div class="d-flex">
+              <div><img class="col-images py-5" src="image 3 (1).png" /></div>
+              <div class="mt-5 all-text">
+                <h4 class="text-black all-text">INY VINTAGE CHAIR</h4>
+                <a
+                  href="moody studio pg2.html"
+                  class="btn btn-outline-dark all-text"
+                  >VIEW DETAILS</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md col-sm d-none d-sm-block">
+            <div class="d-flex bg-color">
+              <div><img class="col-images py-3" src="image 4.png" /></div>
+              <div class="mt-5 pt-5">
+                <h4 class="text-black">LARGE TERRACOTA <br />VASE</h4>
+                <a href="moody studio pg2.html" class="btn btn-outline-dark"
+                  >VIEW DETAILS</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-4">
+          <div class="col-md col-sm d-none d-sm-block">
+            <div
+              class="position-relative col-images align-content-center justify-content-center d-flex"
+            >
+              <img src="Rectangle 5.png" />
+              <div class="overlay-card3 text-light p-5">
+                <div class="product-title pt-2 ">Decor</div>
+
+                <p class="">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <a href="#" class="btn btn-outline-ligh border text-light"
+                  >VIEW DETAILS</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md col-sm d-none d-sm-block">
+            <div class="">
+              <div class="col-images3"><img src="Rectangle 6.png" /></div>
+              <div class="ps-2">
+                <b>LINEN BEACH TOWEL </b>
+                <div>
+                  <i class="ri-star-line text-warning"></i
+                  ><i class="ri-star-line text-warning"></i
+                  ><i class="ri-star-line text-warning"></i
+                  ><i class="ri-star-line"></i>
+                </div>
+                <b><p>30$</p></b>
+              </div>
+            </div>
+          </div>
+          <div class="col-md col-sm d-none d-sm-block">
+            <div class=" ">
+              <div class="position-relative">
+                <div class="col-images3"><img src="Rectangle 7.png" /></div>
+                <div class="badge position-absolute top-50 ps-5 ms-5">
+                  <button class="bg-light p-3 border border-0 rounded-pill">
+                    <i class="ri-notification-3-line p-3"></i>|
+                    <i class="ri-heart-line p-3"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="ps-2">
+                <b>Square Clear Glass Box </b>
+                <div>
+                  <i class="ri-star-line text-warning"></i
+                  ><i class="ri-star-line text-warning"></i
+                  ><i class="ri-star-line text-warning"></i
+                  ><i class="ri-star-line"></i>
+                </div>
+                <b><p>30$</p></b>
+              </div>
+            </div>
+          </div>
+          <div class="col-md col-sm d-none d-sm-block">
+            <div class="col-images3"><img src="Rectangle 8.png" /></div>
+            <div class="ps-2">
+              <b>4-pack Small Ceramic Plates </b>
+              <div>
+                <i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line"></i>
+              </div>
+              <b><p>30$</p></b>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-4">
+          <div class="col-md col-sm d-none d-sm-block">
+            <div class="col-images3 py-2"><img src="Rectangle 10.png" /></div>
+            <div class="ps-2">
+              <b>Large Clear Glass Box </b>
+              <div>
+                <i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line"></i>
+              </div>
+              <b><p>30$</p></b>
+            </div>
+          </div>
+          <div class="col-md col-sm d-none d-sm-block">
+            <div class="col-images3 py-2"><img src="Rectangle 11.png" /></div>
+            <div class="ps-2">
+              <b>Round Jute Placemat </b>
+              <div>
+                <i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line"></i>
+              </div>
+              <b><p>30$</p></b>
+            </div>
+          </div>
+          <div class="col-md col-sm d-none d-sm-block">
+            <div class="col-images3 py-2"><img src="Rectangle 12.png" /></div>
+            <div class="ps-2">
+              <b>Metal Wire Basket </b>
+              <div>
+                <i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line"></i>
+              </div>
+              <b><p>30$</p></b>
+            </div>
+          </div>
+          <div class="col-md col-sm d-none d-sm-block">
+            <div
+              class="position-relative col-images align-content-center justify-content-center d-flex"
+            >
+              <img class="position-relative col-images " src="Rectangle 9.png" />
+              <div class="overlay-card3 col-images text-light mx-2 p-5">
+                <div class="product-title pt-2">BOHO CHIC</div>
+
+                <p class="">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <a href="#" class="btn btn-outline-light">VIEW DETAILS</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row pt-4">
+        <div class="col-md col-sm">
+          <div class="card position-relative d-flex">
+            <img class="image-column2 p" src="Rectangle 13.png" />
+          </div>
+          <div class="overlay-card all-text">
+            <div class="myfont"><h5>BEDSHEET SETS</h5></div>
+            <div class="d-none d-md-block">
+              <span class="price">$50.00</span>
+              <span class="old-price">$220.00</span>
+            </div>
+            <p class="desc d-none d-md-block">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor.
+            </p>
+            <a href="index2.html" class="btn btn-outline-dark myfont"
+              >VIEW DETAILS</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container pt-4">
+      <h2>TOP RATING</h2>
+      <div class="row">
+        <div class="col-md col-sm">
+          <div class="d-flex gap-3">
+            <div class="col-images py-2"><img src="Rectangle 26.png" /></div>
+            <div class="pt-5 mt-5 all-text">
+              <b><p>Tray with Foot</p></b>
+              <div>
+                <i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line"></i>
+              </div>
+              <b><p>30$</p></b>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md col-sm d-none d-md-block">
+          <div class="d-flex gap-3">
+            <div class="col-images py-2"><img src="Rectangle 27.png" /></div>
+            <div class="pt-5 mt-5 all-text">
+              <b>Twill Seat Cushion </b>
+              <div>
+                <i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line"></i>
+              </div>
+              <b><p>30$</p></b>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md col-sm d-none d-md-block">
+          <div class="d-flex gap-3">
+            <div class="col-images py-2"><img src="Rectangle 28.png" /></div>
+            <div class="pt-5 mt-5 all-text">
+              <b>Fluted Beverage Glass </b>
+              <div>
+                <i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line"></i>
+              </div>
+              <b><p>30$</p></b>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md col-sm d-none d-md-block">
+          <div class="d-flex gap-3">
+            <div class="col-images py-2"><img src="Rectangle 29.png" /></div>
+            <div class="pt-5 mt-5 all-text">
+              <b>Ceramic Egg Cup </b>
+              <div>
+                <i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line"></i>
+              </div>
+              <b><p>30$</p></b>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md col-sm">
+          <div class="d-flex gap-3">
+            <div class="col-images py-2"><img src="Rectangle 33.png" /></div>
+            <div class="pt-5 mt-5 all-text">
+              <b>Small Bamboo Box </b>
+              <div>
+                <i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line"></i>
+              </div>
+              <b><p>30$</p></b>
+            </div>
+          </div>
+        </div>
+        <div class="col-md col-sm d-none d-md-block">
+          <div class="d-flex gap-3">
+            <div class="col-images py-2"><img src="Rectangle 34.png" /></div>
+            <div class="pt-5 mt-5 all-text">
+              <b>Metal Cutlery Basket </b>
+              <div>
+                <i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line"></i>
+              </div>
+              <b><p>30$</p></b>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md col-sm d-none d-md-block">
+          <div class="d-flex gap-3">
+            <div class="col-images py-2"><img src="Rectangle 30.png" /></div>
+            <div class="pt-5 mt-5 all-text">
+              <b>4-pack Ceramic Cups </b>
+              <div>
+                <i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line"></i>
+              </div>
+              <b><p>30$</p></b>
+            </div>
+          </div>
+        </div>
+        <div class="col-md col-sm d-none d-md-block">
+          <div class="d-flex gap-3">
+            <div class="col-images py-2"><img src="Rectangle 31.png" /></div>
+            <div class="pt-5 mt-5 all-text">
+              <b>2-pack Linen Napkins </b>
+              <div>
+                <i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line"></i>
+              </div>
+              <b><p>30$</p></b>
+            </div>
+          </div>
+        </div>
+        <div class="col-md col-sm">
+          <div class="d-flex gap-3">
+            <div class="col-images py-2"><img src="Rectangle 32.png" /></div>
+            <div class="pt-5 mt-5 all-text">
+              <b>Glazed Stoneware Plate </b>
+              <div>
+                <i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line text-warning"></i
+                ><i class="ri-star-line"></i>
+              </div>
+              <b><p>30$</p></b>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Pagination Dots -->
+      <div class="carousel-dots mt-2 d-md-none d-sm-block">
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="text-center d-none d-sm-block py-5">
+        <button class="btn btn-add">LOAD MORE PRODUCTS</button>
+      </div>
+      <div class="row">
+        <div class="col-md col-sm all-text">
+          <h5>SING UP FOR THE NEWSLETTER</h5>
+
+          <p>Subscribe for the latest stories and promotions</p>
+        </div>
+        <div class="col-md col-sm">
+          <div class="mb-3">
+            <div class="input-group pt-2">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter your e-mail address"
+              />
+              <button class="btn btn-dark" type="button">
+                <i class="ri-mail-line text-light"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container-fluid d-none d-sm-block">
+      <div class="row pb-5 ps-5">
+        <!-- Column 1: Branding & Contact -->
+        <div class="col-md-4">
+          <h5 class="text-light">URBAN OUTFITTERS</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur<br />
+            adipiscing elit. Donec non orci.
+          </p>
+          <p class="text-light">
+            <strong>928 King Street, Melbourne 2000</strong><br />
+            +61 7 7890 6204<br />
+            contact@outfitters.com
+          </p>
+          <div class="social-icons mt-3 text-light">
+            <i class="ri-facebook-fill"></i>
+            <i class="ri-twitter-fill mx-4"></i>
+            <i class="ri-instagram-fill mx-4"></i>
+            <i class="ri-briefcase-3-fill mx-4"></i>
+          </div>
+        </div>
+
+        <!-- Column 2: Support & Quick Links -->
+        <div class="col-md-4 row">
+          <div class="col-6 footer-link">
+            <h5>SUPPORT</h5>
+            <p><a href="#">FAQs</a></p>
+            <p><a href="#">Shipping & Returns</a></p>
+            <p><a href="#">Order Status</a></p>
+            <p><a href="#">Payment Method</a></p>
+          </div>
+          <div class="col-6 footer-link">
+            <h5>QUICK LINK</h5>
+            <p><a href="#">Shop</a></p>
+            <p><a href="#">Blog</a></p>
+            <p><a href="#">About Us</a></p>
+            <p><a href="#">Contact Us</a></p>
+          </div>
+        </div>
+
+        <!-- Column 3: Recent Blog -->
+        <div class="col-md-4">
+          <h5>RECENT BLOG</h5>
+          <p>
+            <strong>26 Sep</strong><br />
+            Lorem ipsum dolor sit amet consectetur elit.<br />
+            3 Comments
+          </p>
+          <div><hr /></div>
+          <p>
+            <strong>27 Sep</strong><br />
+            Lorem ipsum dolor sit amet consectetur elit.<br />
+            3 Comments
+          </p>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="bg-black text-center py-2">
+        © 2025 Urban Outfitters. All rights reserved.
+      </div>
+    </footer>
+    <!-- mobile -->
+    <footer class="d-md-none d-sm-block">
+      <div class="row">
+        <!-- Column 1: Branding & Contact -->
+        <div class="col-md-4">
+          <h5 class="text-light text-center pb-4">URBAN OUTFITTERS</h5>
+
+          <div class="text-center">
+            <i class="ri-phone-line text-light"></i> 166
+          </div>
+
+          <p class="text-light text-center pb-4">
+            <strong>928 King Street, Melbourne 2000</strong><br />
+            contact@outfitters.com
+          </p>
+          <div class="text-center pb-3">
+            <div><p>Your cart</p></div>
+            <div><p>Your oders</p></div>
+            <div><p>Compared items</p></div>
+            <div><p>Whitelist items</p></div>
+            <div><p>Shipping detail</p></div>
+          </div>
+          <div class="social-icons mt-3 text-light">
+            <i class="ri-facebook-fill ps-5"></i>
+            <i class="ri-twitter-fill mx-4"></i>
+            <i class="ri-instagram-fill mx-4"></i>
+            <i class="ri-briefcase-3-fill mx-4"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="bg-black text-center py-2">
+        © 2025 Urban Outfitters. All rights reserved.
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
